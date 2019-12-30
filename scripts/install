@@ -99,7 +99,7 @@ ynh_print_info "Creating a MySQL database..."
 db_name=$(ynh_sanitize_dbid $app)
 ynh_app_setting_set $app db_name $db_name
 ynh_mysql_setup_db $db_name $db_name
-ynh_mysql_execute_file_as_root -f="$final_path/phplicensewatcher.sql" -d="$db_name"
+ynh_mysql_execute_file_as_root -f "$final_path/phplicensewatcher.sql" -d "$db_name"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -127,7 +127,7 @@ ynh_system_user_create $app
 # MODIFY A CONFIG FILE
 #=================================================
 
-cp -a ../conf/config.php $final_path/config/config.php
+cp -a ../conf/config.php "$final_path/config.php"
 
 ynh_replace_string "yunouser"   "$db_name"    "$final_path/config/config.php"
 ynh_replace_string "yunopass"   "$db_pwd"     "$final_path/config/config.php"
