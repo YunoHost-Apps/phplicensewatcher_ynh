@@ -37,11 +37,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Mantis /plw is accepted",
-                    "fr": "Choisissez un chemin pour Mantis /plw est accepté"
+                    "en": "Choose a path for PHPLicenseWatcher / is accepted",
+                    "fr": "Choisissez un chemin pour PHPLicenseWatcher / est accepté"
                 },
-                "example": "/plw",
-                "default": "/plw"
+                "example": "/",
+                "default": "/"
             },
             
             {
