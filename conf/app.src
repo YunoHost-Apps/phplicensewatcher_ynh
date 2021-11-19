@@ -1,7 +1,7 @@
-SOURCE_URL=https://github.com/YunoHost-Apps/phplicensewatcher_ynh/releases/download/1.9.2/phplicensewatcher-1.9.2.tar.gz
-SOURCE_SUM=72a1969b8ea1853e4f94ecb40e5cd7e3453059ce5d45a0cd487a073a2387f49e7eb77600f4c5f3f16d119757ba6cc9fcefc5aab4e0535b23e5a98452c729cb4c
-SOURCE_SUM_PRG=sha512sum
-SOURCE_FORMAT=tar.gz
+SOURCE_URL=https://github.com/rpi-dotcio/phpLicenseWatcher/archive/762f2d5c1f9cbec3367a8ebf5cda46f04ba49bf9.zip
+SOURCE_SUM=1c75c8901b2e57ce9e246dbd3ff35c3ed7c4b154dacbb146f961d4207bdc91a4
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
 SOURCE_EXTRACT=true
-SOURCE_FILENAME=phplicensewatcher.tar.gz
+SOURCE_FILENAME=phplicensewatcher.zip
