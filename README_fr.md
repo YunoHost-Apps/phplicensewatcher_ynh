@@ -11,18 +11,22 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Un gestionnaire de licences
+phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag commands that gives information about the status of FlexLM servers. You can also get information about features and number of licenses available on a particular server. 
 
 **Version incluse :** 1.9.2~ynh1
 
 **Démo :** https://demo.example.com
+
+## Captures d'écran
+
+![](./doc/screenshots/screenshot1.png)
 
 ## Documentations et ressources
 
 * Site officiel de l'app : https://example.com
 * Documentation officielle utilisateur : https://yunohost.org/apps
 * Documentation officielle de l'admin : https://yunohost.org/packaging_apps
-* Dépôt de code officiel de l'app : https://some.forge.com/example/example
+* Dépôt de code officiel de l'app : https://github.com/rpi-dotcio/phpLicenseWatcher
 * Documentation YunoHost pour cette app : https://yunohost.org/app_phplicensewatcher
 * Signaler un bug : https://github.com/YunoHost-Apps/phplicensewatcher_ynh/issues
 
