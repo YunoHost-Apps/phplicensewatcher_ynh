@@ -6,7 +6,7 @@
         "en": "License manager",
         "fr": "Gestionnaire de licences"
     },
-    "version": "1.9.2~ynh1",
+    "version": "2.210916~ynh1",
     "url": "http://phplicensewatch.sourceforge.net",
     "upstream": {
         "license": "GPL-3.0",
