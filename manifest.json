@@ -6,40 +6,39 @@
         "en": "A license manager",
         "fr": "Un gestionnaire de licences"
     },
-    "version": "1.9.2",
+    "version": "1.9.2~ynh1",
     "url": "http://phplicensewatch.sourceforge.net",
+    "upstream": {
+        "license": "free",
+        "website": "https://example.com",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "userdoc": "https://yunohost.org/apps",
+        "code": "https://some.forge.com/example/example"
+    },
     "license": "GPL-3.0",
     "maintainer": {
         "name": "liberodark",
         "email": "liberodark@gmail.com"
     },
     "requirements": {
-        "yunohost": ">= 2.7.2"
+        "yunohost": ">= 4.3.0"
     },
     "multi_instance": false,
     "services": [
         "nginx",
-        "php5-fpm",
+        "php7.3-fpm",
         "mysql"
     ],
     "arguments": {
         "install": [{
                 "name": "domain",
-                "type": "domain",
-                "ask": {
-                    "en": "Choose a domain name for Mantis",
-                    "fr": "Choisissez un nom de domaine pour Mantis"
-                },
-                "example": "example.com"
+                "type": "domain"
             },
 
             {
                 "name": "path",
                 "type": "path",
-                "ask": {
-                    "en": "Choose a path for PHPLicenseWatcher / is accepted",
-                    "fr": "Choisissez un chemin pour PHPLicenseWatcher / est accepté"
-                },
                 "example": "/",
                 "default": "/"
             },
@@ -47,11 +46,7 @@
             {
                 "name": "is_public",
                 "type": "boolean",
-                "ask": {
-                    "en": "Is it a public site ?",
-                    "fr": "Est-ce un site public ?"
-                },
-                "default": "true"
+                "default": true
             }
         ]
     }
