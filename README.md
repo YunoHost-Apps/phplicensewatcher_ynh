@@ -27,7 +27,7 @@ phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag comma
 - Provides usage charts
 
 
-**Shipped version:** 1.9.2~ynh1
+**Shipped version:** 2.210916~ynh1
 
 
 
