@@ -3,16 +3,15 @@
     "id": "phplicensewatcher",
     "packaging_format": 1,
     "description": {
-        "en": "A license manager",
-        "fr": "Un gestionnaire de licences"
+        "en": "License manager",
+        "fr": "Gestionnaire de licences"
     },
     "version": "1.9.2~ynh1",
     "url": "http://phplicensewatch.sourceforge.net",
     "upstream": {
-        "license": "free",
-        "website": "https://example.com",
-        "demo": "https://demo.example.com",
-        "admindoc": "https://yunohost.org/packaging_apps",
+        "license": "GPL-3.0",
+        "website": "http://phplicensewatch.sourceforge.net",
+        "admindoc": "https://phplicensewatch.sourceforge.io/index.html#Documentation",
         "code": "https://github.com/rpi-dotcio/phpLicenseWatcher"
     },
     "license": "GPL-3.0",
@@ -37,8 +36,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/",
-                "default": "/"
+                "example": "/phplicensewatcher",
+                "default": "/phplicensewatcher"
             },  
             {
                 "name": "is_public",
