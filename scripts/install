@@ -125,6 +125,9 @@ chmod 644 "/etc/cron.d/$app"
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
+# Import DB
+ynh_mysql_execute_file_as_root --file="$final_path/database/phplicensewatcher.sql" --database="$db_name"
+
 ynh_add_config --template="../conf/sample-config.php" --destination="$final_path/config.php"
 
 chmod 400 "$final_path/config.php"
