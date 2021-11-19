@@ -25,7 +25,7 @@ phpLicenseWatcher est une interface Web simple aux commandes FlexLM lmstat et lm
 
 **Version incluse :** 1.9.2~ynh1
 
-**Démo :** https://demo.example.com
+
 
 ## Captures d'écran
 
@@ -33,9 +33,8 @@ phpLicenseWatcher est une interface Web simple aux commandes FlexLM lmstat et lm
 
 ## Documentations et ressources
 
-* Site officiel de l'app : https://example.com
-* Documentation officielle utilisateur : https://yunohost.org/apps
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
+* Site officiel de l'app : http://phplicensewatch.sourceforge.net
+* Documentation officielle de l'admin : https://phplicensewatch.sourceforge.io/index.html#Documentation
 * Dépôt de code officiel de l'app : https://github.com/rpi-dotcio/phpLicenseWatcher
 * Documentation YunoHost pour cette app : https://yunohost.org/app_phplicensewatcher
 * Signaler un bug : https://github.com/YunoHost-Apps/phplicensewatcher_ynh/issues
