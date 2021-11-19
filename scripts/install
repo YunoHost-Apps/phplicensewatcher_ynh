@@ -130,14 +130,6 @@ ynh_add_config --template="../conf/sample-config.php" --destination="$final_path
 chmod 400 "$final_path/config.php"
 chown $app:$app "$final_path/config.php"
 
-
-# # Import DB
-ynh_mysql_execute_file_as_root --file="$final_path/phplicensewatcher.sql" --database="$db_name"
-
-# # Clean Files
-# rm -f "$final_path/*.sql"
-# rm -f "$final_path/*.md"
-
 #=================================================
 # SETUP SSOWAT
 #=================================================
