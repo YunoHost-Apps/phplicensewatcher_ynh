@@ -29,7 +29,7 @@ phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag comma
 
 **Shipped version:** 1.9.2~ynh1
 
-**Demo:** https://demo.example.com
+
 
 ## Screenshots
 
@@ -37,9 +37,8 @@ phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag comma
 
 ## Documentation and resources
 
-* Official app website: https://example.com
-* Official user documentation: https://yunohost.org/apps
-* Official admin documentation: https://yunohost.org/packaging_apps
+* Official app website: http://phplicensewatch.sourceforge.net
+* Official admin documentation: https://phplicensewatch.sourceforge.io/index.html#Documentation
 * Upstream app code repository: https://github.com/rpi-dotcio/phpLicenseWatcher
 * YunoHost documentation for this app: https://yunohost.org/app_phplicensewatcher
 * Report a bug: https://github.com/YunoHost-Apps/phplicensewatcher_ynh/issues
