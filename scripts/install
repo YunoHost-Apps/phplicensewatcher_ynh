@@ -111,22 +111,31 @@ ynh_script_progression --message="Configuring PHP-FPM..." --time --weight=1
 ynh_add_fpm_config
 
 #=================================================
+# SETUP A CRON
+#=================================================
+ynh_script_progression --message="Setuping a cron..." --weight=1
+
+ynh_add_config --template="../conf/cron" --destination="/etc/cron.d/$app"
+chown root: "/etc/cron.d/$app"
+chmod 644 "/etc/cron.d/$app"
+
+#=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --time --weight=1
 
-ynh_add_config --template="../conf/config.php" --destination="$final_path/config.php"
+ynh_add_config --template="../conf/sample-config.php" --destination="$final_path/config.php"
 
 chmod 400 "$final_path/config.php"
 chown $app:$app "$final_path/config.php"
 
 
-# Import DB
+# # Import DB
 ynh_mysql_execute_file_as_root --file="$final_path/phplicensewatcher.sql" --database="$db_name"
 
-# Clean Files
-rm -f "$final_path/*.sql"
-rm -f "$final_path/*.md"
+# # Clean Files
+# rm -f "$final_path/*.sql"
+# rm -f "$final_path/*.md"
 
 #=================================================
 # SETUP SSOWAT
@@ -136,8 +145,6 @@ ynh_script_progression --message="Configuring permissions..." --time --weight=1
 # Make app public if necessary
 if [ $is_public -eq 1 ]
 then
-	# Everyone can access the app.
-	# The "main" permission is automatically created before the install script.
 	ynh_permission_update --permission="main" --add="visitors"
 fi
 
