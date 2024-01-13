@@ -7,9 +7,9 @@ name = "PHPLicenseWatcher"
 description.en = "License manager"
 description.fr = "Gestionnaire de licences"
 
-version = "2.210916~ynh1"
+version = "2.210916~ynh2"
 
-maintainers = ["liberodark"]
+maintainers = []
 
 [upstream]
 license = "GPL-3.0"
@@ -18,11 +18,14 @@ admindoc = "https://phplicensewatch.sourceforge.io/index.html#Documentation"
 code = "https://github.com/rpi-dotcio/phpLicenseWatcher"
 
 [integration]
-yunohost = ">= 4.3.0"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = false
+
 ldap = "not_relevant"
+
 sso = "not_relevant"
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
