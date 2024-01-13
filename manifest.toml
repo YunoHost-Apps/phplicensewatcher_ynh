@@ -1,0 +1,63 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "phplicensewatcher"
+name = "PHPLicenseWatcher"
+description.en = "License manager"
+description.fr = "Gestionnaire de licences"
+
+version = "2.210916~ynh1"
+
+maintainers = ["liberodark"]
+
+[upstream]
+license = "GPL-3.0"
+website = "http://phplicensewatch.sourceforge.net"
+admindoc = "https://phplicensewatch.sourceforge.io/index.html#Documentation"
+code = "https://github.com/rpi-dotcio/phpLicenseWatcher"
+
+[integration]
+yunohost = ">= 4.3.0"
+architectures = "all"
+multi_instance = false
+ldap = "not_relevant"
+sso = "not_relevant"
+disk = "50M" # FIXME: replace with an **estimate** minimum disk requirement. e.g. 20M, 400M, 1G, ...
+ram.build = "50M" # FIXME: replace with an **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, ...
+ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, ...
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/phplicensewatcher"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+    [resources.sources.main]
+    url = "https://github.com/rpi-dotcio/phpLicenseWatcher/archive/762f2d5c1f9cbec3367a8ebf5cda46f04ba49bf9.zip"
+    sha256 = "1c75c8901b2e57ce9e246dbd3ff35c3ed7c4b154dacbb146f961d4207bdc91a4"
+
+    autoupdate.strategy = "latest_github_commit"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = [
+        "php7.3-mysql",
+        "mariadb-server",
+    ]
+
+    [resources.database]
+    type = "mysql"
