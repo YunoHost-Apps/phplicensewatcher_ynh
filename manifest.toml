@@ -55,7 +55,7 @@ ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requiremen
 
     [resources.apt]
     packages = [
-        "php7.3-mysql",
+        "php7.4-mysql",
         "mariadb-server",
     ]
 
