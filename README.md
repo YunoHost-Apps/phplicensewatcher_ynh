@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # PHPLicenseWatcher for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://dash.yunohost.org/appci/app/phplicensewatcher) ![](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://dash.yunohost.org/appci/app/phplicensewatcher) ![Working status](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
+
 [![Install PHPLicenseWatcher with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phplicensewatcher)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -29,29 +30,28 @@ phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag comma
 
 **Shipped version:** 2.210916~ynh1
 
-
-
 ## Screenshots
 
-![](./doc/screenshots/screenshot1.png)
+![Screenshot of PHPLicenseWatcher](./doc/screenshots/screenshot1.png)
 
 ## Documentation and resources
 
-* Official app website: http://phplicensewatch.sourceforge.net
-* Official admin documentation: https://phplicensewatch.sourceforge.io/index.html#Documentation
-* Upstream app code repository: https://github.com/rpi-dotcio/phpLicenseWatcher
-* YunoHost documentation for this app: https://yunohost.org/app_phplicensewatcher
-* Report a bug: https://github.com/YunoHost-Apps/phplicensewatcher_ynh/issues
+* Official app website: <http://phplicensewatch.sourceforge.net>
+* Official admin documentation: <https://phplicensewatch.sourceforge.io/index.html#Documentation>
+* Upstream app code repository: <https://github.com/rpi-dotcio/phpLicenseWatcher>
+* YunoHost Store: <https://apps.yunohost.org/app/phplicensewatcher>
+* Report a bug: <https://github.com/YunoHost-Apps/phplicensewatcher_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/phplicensewatcher_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/phplicensewatcher_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade phplicensewatcher -u https://github.com/YunoHost-Apps/phplicensewatcher_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
