@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/rpi-dotcio/phpLicenseWatcher/archive/762f2d5c1f9cbec3367a8ebf5cda46f04ba49bf9.zip
-SOURCE_SUM=1c75c8901b2e57ce9e246dbd3ff35c3ed7c4b154dacbb146f961d4207bdc91a4
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=true
-SOURCE_EXTRACT=true
-SOURCE_FILENAME=phplicensewatcher.zip
