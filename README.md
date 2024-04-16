@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install PHPLicenseWatcher with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phplicensewatcher)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install PHPLicenseWatcher quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -28,7 +28,7 @@ phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag comma
 - Provides usage charts
 
 
-**Shipped version:** 2.210916~ynh2
+**Shipped version:** 2024.04.15~ynh1
 
 ## Screenshots
 

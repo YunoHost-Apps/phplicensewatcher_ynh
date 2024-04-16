@@ -7,7 +7,7 @@ name = "PHPLicenseWatcher"
 description.en = "License manager"
 description.fr = "Gestionnaire de licences"
 
-version = "2.210916~ynh2"
+version = "2024.04.15~ynh1"
 
 maintainers = []
 
@@ -44,8 +44,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/rpi-dotcio/phpLicenseWatcher/archive/762f2d5c1f9cbec3367a8ebf5cda46f04ba49bf9.zip"
-    sha256 = "1c75c8901b2e57ce9e246dbd3ff35c3ed7c4b154dacbb146f961d4207bdc91a4"
+    url = "https://github.com/rpi-dotcio/phpLicenseWatcher/archive/bb2a70eae5dd91c3d72cec00ec85d13136d9591f.tar.gz"
+    sha256 = "22eb3498e258b7cb3184d69c681cefe8a90de791c411a5159e6cf1475f02fb85"
 
     autoupdate.strategy = "latest_github_commit"
 
