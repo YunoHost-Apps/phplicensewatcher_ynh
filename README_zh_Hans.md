@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 PHPLicenseWatcher
+# YunoHost 上的 PHPLicenseWatcher
 
 [![集成程度](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://dash.yunohost.org/appci/app/phplicensewatcher) ![工作状态](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
 
