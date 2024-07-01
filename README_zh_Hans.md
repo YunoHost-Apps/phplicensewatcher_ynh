@@ -5,7 +5,7 @@
 
 # YunoHost 上的 PHPLicenseWatcher
 
-[![集成程度](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://dash.yunohost.org/appci/app/phplicensewatcher) ![工作状态](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://ci-apps.yunohost.org/ci/apps/phplicensewatcher/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
 
 [![使用 YunoHost 安装 PHPLicenseWatcher](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phplicensewatcher)
 

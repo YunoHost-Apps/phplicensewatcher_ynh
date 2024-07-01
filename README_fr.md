@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # PHPLicenseWatcher pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://dash.yunohost.org/appci/app/phplicensewatcher) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://ci-apps.yunohost.org/ci/apps/phplicensewatcher/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
 
 [![Installer PHPLicenseWatcher avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phplicensewatcher)
 
