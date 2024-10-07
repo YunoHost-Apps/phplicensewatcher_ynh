@@ -28,7 +28,7 @@ phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag comma
 - Provides usage charts
 
 
-**Versión actual:** 2024.06.24~ynh1
+**Versión actual:** 2024.10.01~ynh1
 
 ## Capturas
 
@@ -44,7 +44,7 @@ phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag comma
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/phplicensewatcher_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/phplicensewatcher_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
