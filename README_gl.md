@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # PHPLicenseWatcher para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://ci-apps.yunohost.org/ci/apps/phplicensewatcher/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/phplicensewatcher)](https://ci-apps.yunohost.org/ci/apps/phplicensewatcher/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/phplicensewatcher)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/phplicensewatcher)
 
 [![Instalar PHPLicenseWatcher con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phplicensewatcher)
 
@@ -28,7 +30,7 @@ phpLicenseWatcher is a simple Web frontend to the FlexLM lmstat and lmdiag comma
 - Provides usage charts
 
 
-**Versión proporcionada:** 2024.06.24~ynh1
+**Versión proporcionada:** 2024.10.01~ynh1
 
 ## Capturas de pantalla
 
