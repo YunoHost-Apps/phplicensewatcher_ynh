@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # PHPLicenseWatcher YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://ci-apps.yunohost.org/ci/apps/phplicensewatcher/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/phplicensewatcher)](https://ci-apps.yunohost.org/ci/apps/phplicensewatcher/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/phplicensewatcher)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/phplicensewatcher)
 
 [![Instalatu PHPLicenseWatcher YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phplicensewatcher)
 

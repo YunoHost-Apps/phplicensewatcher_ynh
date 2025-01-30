@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # PHPLicenseWatcher untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/phplicensewatcher.svg)](https://ci-apps.yunohost.org/ci/apps/phplicensewatcher/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/phplicensewatcher.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/phplicensewatcher)](https://ci-apps.yunohost.org/ci/apps/phplicensewatcher/)
+![Status kerja](https://apps.yunohost.org/badge/state/phplicensewatcher)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/phplicensewatcher)
 
 [![Pasang PHPLicenseWatcher dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phplicensewatcher)
 
