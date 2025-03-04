@@ -3,3 +3,17 @@
 test_format = 1.0
 
 [default]
+
+    # ------------
+    # Tests to run
+    # ------------
+
+    # -------------------------------
+    # Default args to use for install
+    # -------------------------------
+
+    # -------------------------------
+    # Commits to test upgrade from
+    # -------------------------------
+
+    test_upgrade_from.12cdcdb06cb6cde85a7d2ad4d843e64f2130bbe8.name = "Upgrade from 2024.10.01~ynh1"

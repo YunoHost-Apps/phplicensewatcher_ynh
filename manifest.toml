@@ -7,7 +7,7 @@ name = "PHPLicenseWatcher"
 description.en = "License manager"
 description.fr = "Gestionnaire de licences"
 
-version = "2024.10.01~ynh1"
+version = "2025.02.27~ynh1"
 
 maintainers = []
 
@@ -44,8 +44,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/rpi-dotcio/phpLicenseWatcher/archive/80659cc1a97e97794397ec14b805bcbd63e92939.tar.gz"
-    sha256 = "828129dbddd4f3ea2e5d4fa8cb679deb97bdadf7d54edb6274a3d4696a65fafa"
+    url = "https://github.com/rpi-dotcio/phpLicenseWatcher/archive/f9049559e2766d3463a4bfed18bf07b4496ad8d5.tar.gz"
+    sha256 = "cebf7ed70d9a968cbfbab50d8a0e13eba56ae4f7287a3e0e16b068c9584abd55"
 
     autoupdate.strategy = "latest_github_commit"
 
@@ -58,7 +58,7 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "php7.4-mysql",
+        "php8.4-mysql",
         "mariadb-server",
     ]
 
