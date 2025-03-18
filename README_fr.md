@@ -30,7 +30,7 @@ phpLicenseWatcher est une interface Web simple aux commandes FlexLM lmstat et lm
 - Fournit des tableaux d'utilisation 
 
 
-**Version incluse :** 2025.03.09~ynh1
+**Version incluse :** 2025.03.15~ynh1
 
 ## Captures d’écran
 
