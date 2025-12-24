@@ -8,7 +8,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Upgrading source files..."
 
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="$install_dir/config.php"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="config.php"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
