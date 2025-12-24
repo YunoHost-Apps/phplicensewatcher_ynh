@@ -18,16 +18,16 @@ admindoc = "https://phplicensewatch.sourceforge.io/index.html#Documentation"
 code = "https://github.com/rpi-dotcio/phpLicenseWatcher"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.1.17"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
 
-ldap = "not_relevant"
+ldap = false
+sso = false
 
-sso = "not_relevant"
-
-disk = "50M"
-ram.build = "50M"
+disk = "20M"
+ram.build = "150M"
 ram.runtime = "50M"
 
 [install]
@@ -44,14 +44,14 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/rpi-dotcio/phpLicenseWatcher/archive/a68bf5d0a69a011021d03111d0409382498b519e.tar.gz"
-    sha256 = "726b918669e5c2ced826d4563a28cc05976d59f10246c3247497c133538c673f"
-
+    url = "https://github.com/rpi-dotcio/phpLicenseWatcher/archive/4cd2d73bb7ed08d3839ad6ca2c69ec2863b22a9a.tar.gz"
+    sha256 = "cbcf419e8d86ba04ee6834734a62d2d4c07df916b3f3f5d00e8dba5c71376cd2"
     autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.permissions]
     main.url = "/"
