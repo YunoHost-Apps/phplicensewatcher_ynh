@@ -7,7 +7,7 @@ name = "PHPLicenseWatcher"
 description.en = "License manager"
 description.fr = "Gestionnaire de licences"
 
-version = "2026.08.05~ynh1"
+version = "2026.08.05~ynh2"
 
 maintainers = []
 

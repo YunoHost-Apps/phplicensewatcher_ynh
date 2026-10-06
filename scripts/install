@@ -15,7 +15,6 @@ ynh_setup_source --dest_dir="$install_dir"
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
-# Import DB
 ynh_mysql_db_shell < "$install_dir/database/phplicensewatcher.sql"
 
 #=================================================
